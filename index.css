@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(229, 214, 239);
+    height: 100vh;
+    width: 100%;
+}
+
+.log {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card{
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 0px #7c7979;
+    border-radius: 26px; 
+    border: 3px rgba(57.34, 48.33, 109.44, 0.04) solid;
+    padding: 3rem;
+    width: 300px;
+    height: 450px;
+    font-family: inter;
+    margin-top: 10rem;
+    transition: 0.5s all ease;
+}
+
+.login-card h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #A084E8;
+}
+.login-card h6 {
+    text-align: center;
+    font-size: 22px;
+}
+
+form {
+    font-family: poppins ;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+label {
+    font-weight: 500;
+}
+
+input {
+    background-color: rgb(240, 232, 255);
+    border: none;
+    border-bottom: 3px #A084E8 solid;
+    width: 300px;
+    margin-top: 7px;
+    padding: 8px;
+    outline: none;
+    font-family: poppins;
+    font-weight: 500;
+    border-radius: 9px;
+    transition: 0.5s;
+}
+
+input:hover, input:focus {
+    background-color: rgba(163, 105, 240, 0.48);
+    transform: scale(1.02);
+    outline: none;
+}
+
+button {
+    background-color: #6F61C0;
+    border: none;
+    width: 300px;
+    height: 40px;
+    font-family: poppins;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 15px;
+    color: white;
+    margin-top: 2rem;
+    transition:  0.5s;
+}
+
+button:hover, button:focus {
+    cursor: pointer;;
+    /* background-color: #a79ae3; */
+    font-size: 22px;
+}
+
+.login-card:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 15px 15px 0px #7c7979;
+}
+
+.aherf {
+    padding-top: 5px;
+    font-family: poppins;
+    font-size: 14px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: #6F61C0;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.aherf:hover {
+    font-size: 15px;
+}
+
+.tulisTipis {
+    padding-top: 15px;
+    font-family: poppins;
+    font-size: 14px;
+    margin-top: 10px;
+    display: flex;
+    opacity: 0.5;
+    justify-content: center;
+    color: #6F61C0;
+}

@@ -1,9 +1,12 @@
+<?php
+    $nama = $_POST["username"];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>day 4</title>
+    <title>HABEDEEH!!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
@@ -21,13 +24,17 @@ C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="a
 </head>
 <body>
     <div class="card">
-        <img src="asstess/HBD1.jpg" alt="hbd">
+        <img src="HBD1.jpg" alt="hbd">
         <div class="text">
             <h1>Happy Birthday !</h1><br>
-            <p>"May the year forward bring significant and positive changes in your life! Wishing you a very happy and fun-filled birthday."
+            <p>
+                Hari ini, bukanlah hari nasional <br>
+                bukan pula hari raya <br>
+                tapi ku tau hari ini adalah hari special bagi seseorang <br>
+                memang tidak penting, tapi ini special <br>
+                Selamat Ulang Tahun! <?php echo $nama; ?> ✨<br>
             </p>
             <div class="space"></div>
         </div>
     </div>
-</body>
 </html>
